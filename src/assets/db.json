@@ -1,0 +1,81 @@
+{
+  "dogs": [
+    {
+      "id": 0,
+      "name": "Maltese",
+      "imageUrl": "./image/maltese.png",
+      "favourite": false,
+      "category": 0
+    },
+    {
+      "id": 1,
+      "name": "Bulldog",
+      "imageUrl": "./image/bulldog.png",
+      "favourite": false,
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "Canine",
+      "imageUrl": "./image/canine.png",
+      "favourite": false,
+      "category": 2
+    },
+    {
+      "id": 3,
+      "name": "Cattledog",
+      "imageUrl": "./image/cattledog.png",
+      "favourite": false,
+      "category": 3
+    },
+    {
+      "id": 4,
+      "name": "Corgi",
+      "imageUrl": "./image/corgi.png",
+      "favourite": false,
+      "category": 4
+    },
+    {
+      "id": 5,
+      "name": "Kelpie",
+      "imageUrl": "./image/kelpie.png",
+      "favourite": false,
+      "category": 5
+    },
+    {
+      "id": 6,
+      "name": "Labrador",
+      "imageUrl": "./image/labrador.png",
+      "favourite": false,
+      "category": 6
+    },
+    {
+      "id": 7,
+      "name": "Maltese",
+      "imageUrl": "./image/maltese.png",
+      "favourite": false,
+      "category": 7
+    },
+    {
+      "id": 8,
+      "name": "Poodle",
+      "imageUrl": "./image/poodle.png",
+      "favourite": false,
+      "category": 8
+    },
+    {
+      "id": 9,
+      "name": "Shiba",
+      "imageUrl": "./image/shiba.png",
+      "favourite": false,
+      "category": 9
+    },
+    {
+      "id": 10,
+      "name": "Spaniel",
+      "imageUrl": "./image/spaniel.png",
+      "favourite": false,
+      "category": 10
+    }
+  ]
+}
