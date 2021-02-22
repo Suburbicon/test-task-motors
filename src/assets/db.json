@@ -51,31 +51,24 @@
     },
     {
       "id": 7,
-      "name": "Maltese",
-      "imageUrl": "./image/maltese.png",
+      "name": "Poodle",
+      "imageUrl": "./image/poodle.png",
       "favourite": false,
       "category": 7
     },
     {
       "id": 8,
-      "name": "Poodle",
-      "imageUrl": "./image/poodle.png",
+      "name": "Shiba",
+      "imageUrl": "./image/shiba.png",
       "favourite": false,
       "category": 8
     },
     {
       "id": 9,
-      "name": "Shiba",
-      "imageUrl": "./image/shiba.png",
-      "favourite": false,
-      "category": 9
-    },
-    {
-      "id": 10,
       "name": "Spaniel",
       "imageUrl": "./image/spaniel.png",
       "favourite": false,
-      "category": 10
+      "category": 9
     }
   ]
 }

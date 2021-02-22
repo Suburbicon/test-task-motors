@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from "vue";
+import Vuex from "vuex";
 
-import axios from 'axios';
+import axios from "axios";
 
 Vue.use(Vuex);
 
@@ -10,16 +10,16 @@ export default new Vuex.Store({
     dogs: [],
     perPage: 3,
     currentPage: 1,
-    amountPage: 1,
+    amountPage: 1
   },
   actions: {
     async FETCH_DOGS({ commit }) {
-      const { data } = await axios('http://localhost:5000/dogs');
-      commit('SET_DOGS', data);
-    },
+      const { data } = await axios("http://localhost:5000/dogs");
+      commit("SET_DOGS", data);
+    }
   },
   mutations: {
-    SET_DOGS: (state, dogs) => (state.dogs = dogs),
+    SET_DOGS: (state, dogs) => (state.dogs = dogs)
   },
   getters: {
     DOGS(state) {
@@ -39,7 +39,9 @@ export default new Vuex.Store({
       return dogsPerPage;
     },
     AMOUNT_OF_PAGES(state, getters) {
-      return (state.amountPage = Math.ceil(getters.DOGS.length / state.perPage));
-    },
-  },
+      return (state.amountPage = Math.ceil(
+        getters.DOGS.length / state.perPage
+      ));
+    }
+  }
 });
