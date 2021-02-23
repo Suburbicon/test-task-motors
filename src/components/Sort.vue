@@ -2,14 +2,35 @@
   <div class="sort">
     <span class="sort__label">Сортировка по алфавиту</span>
     <label class="sort__switch">
-      <input type="checkbox" class="sort__input" />
+      <input @click="sortByAlphabet" type="checkbox" class="sort__input" />
       <span class="sort__slider round"></span>
     </label>
   </div>
 </template>
 
 <script>
-export default {};
+import { mapActions } from "vuex";
+
+export default {
+  name: "Sort",
+  data: () => {
+    return {
+      sort: false
+    };
+  },
+  methods: {
+    ...mapActions(["SORT_BY_ALPHABET", "FETCH_DOGS"]),
+
+    sortByAlphabet() {
+      this.sort = !this.sort;
+      if (this.sort) {
+        this.SORT_BY_ALPHABET();
+      } else {
+        this.FETCH_DOGS();
+      }
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

@@ -2,12 +2,12 @@
   <header class="header">
     <div class="header__wrap container">
       <h2 class="header__title">
-        <a class="header__title-link" href="/">ПЁСЕЛЬ</a>
+        <router-link class="header__title-link" to="/">ПЁСЕЛЬ</router-link>
       </h2>
       <div class="header__favourite-dogs">
-        <a href="/favourite" class="header__link"
-          >Избранные пёсели <vue-icon class="v-icon" name="heart"></vue-icon
-        ></a>
+        <router-link to="favourite" class="header__link">
+          Избранные пёсели <vue-icon class="v-icon" name="heart"></vue-icon>
+        </router-link>
       </div>
     </div>
   </header>
